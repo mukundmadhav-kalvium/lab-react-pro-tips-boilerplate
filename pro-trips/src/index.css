@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+:root {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar h1{
+  font-family: 'Libre Baskerville', serif;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  padding: 2rem;
+  margin: 3rem auto;
+  width: 30%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+legend {
+  background-color: black;
+  color: white;
+  padding: 3px 6px;
+}
+
+form input {
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  background-color: #d9d9d9;
+  outline: none;
+  border: 1px solid silver;
+  border-radius: 0.2rem;
+}
+
+form input[type="submit"] {
+  background-color: #41a445;
+  color: white;
+  font-weight: 500;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #58d15cea;
+}
+
+.error {
+  color: rgb(231, 17, 17);
+  font-size: 0.9rem;
+}
+
+.success {
+  background-color: rgb(35, 35, 255);
+  color: white;
+  text-align: center;
+}
